@@ -60,7 +60,7 @@ parts:
     after: [ yt-dlp ]
     plugin: nil
     source: https://github.com/NickvisionApps/TubeConverter.git
-    source-tag: '2023.8.0-rc3'
+    source-tag: '2023.8.0'
     source-depth: 1
     build-packages:
       - brotli
