@@ -59,8 +59,8 @@ parts:
   tube-converter:
     after: [ yt-dlp ]
     plugin: nil
-    source: https://github.com/NickvisionApps/TubeConverter.git
-    source-tag: '2023.8.3'
+    source: https://github.com/NickvisionApps/Parabolic.git
+    source-tag: '2023.9.0-rc1'
     source-depth: 1
     build-packages:
       - brotli
@@ -134,3 +134,4 @@ apps:
       - mount-observe
       - unity7
       - screen-inhibit-control
+      - password-manager-service
