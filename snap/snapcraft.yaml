@@ -4,6 +4,7 @@ adopt-info: tube-converter
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
 compression: lzo
+license: MIT
 architectures:
   - build-on: amd64
   - build-on: arm64
