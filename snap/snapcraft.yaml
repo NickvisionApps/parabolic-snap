@@ -53,7 +53,7 @@ parts:
     after: [ yt-dlp ]
     plugin: nil
     source: https://github.com/NickvisionApps/Parabolic.git
-    source-tag: '2023.9.1-rc1-p1'
+    source-tag: '2023.9.1-rc2'
     source-depth: 1
     build-packages:
       - brotli
@@ -123,6 +123,5 @@ apps:
       - network
       - network-status
       - mount-observe
-      - unity7
       - screen-inhibit-control
       - password-manager-service
