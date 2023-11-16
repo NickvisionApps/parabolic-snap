@@ -15,7 +15,7 @@ parts:
     # Missing optional dependencies atomicparsley, mpv, phantomjs and rtmpdump
     plugin: python
     source: https://github.com/yt-dlp/yt-dlp.git
-    source-tag: '2023.09.24'
+    source-tag: '2023.10.13'
 # ext:updatesnap
 #   version-format:
 #     ignore: true
@@ -54,7 +54,7 @@ parts:
     after: [ yt-dlp ]
     plugin: nil
     source: https://github.com/NickvisionApps/Parabolic.git
-    source-tag: '2023.11.0-beta2'
+    source-tag: '2023.11.0-rc1'
     source-depth: 1
     build-packages:
       - brotli
