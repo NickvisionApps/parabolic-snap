@@ -19,8 +19,6 @@ parts:
       # WORKAROUND: The python plugin is broken with gnome extension
       - PATH: ${CRAFT_PART_INSTALL}/bin:${PATH}
       - PYTHONPATH: ""
-    python-packages:
-      - psutil==5.9.7
     prime:
       # WORKAROUND: Skip venv from python plugin
       - -usr/bin/activate
@@ -50,7 +48,7 @@ parts:
     after: [ yt-dlp ]
     plugin: nil
     source: https://github.com/NickvisionApps/Parabolic.git
-    source-tag: '2023.12.0-beta1'
+    source-tag: '2023.12.0-beta2'
     source-depth: 1
     build-packages:
       - brotli
