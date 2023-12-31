@@ -48,7 +48,7 @@ parts:
     after: [ yt-dlp ]
     plugin: nil
     source: https://github.com/NickvisionApps/Parabolic.git
-    source-tag: '2023.12.0-beta2'
+    source-tag: '2023.12.0'
     source-depth: 1
     build-packages:
       - brotli
