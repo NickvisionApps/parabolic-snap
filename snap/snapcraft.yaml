@@ -14,7 +14,7 @@ parts:
     plugin: python
     source: https://github.com/yt-dlp/yt-dlp.git
     source-depth: 1
-    source-tag: '2024.03.10'
+    source-tag: '2024.04.09'
     build-environment:
       # WORKAROUND: The python plugin is broken with gnome extension
       - PATH: ${CRAFT_PART_INSTALL}/bin:${PATH}
@@ -48,8 +48,7 @@ parts:
     after: [ yt-dlp ]
     plugin: nil
     source: https://github.com/NickvisionApps/Parabolic.git
-    source-tag: '2023.12.0'
-    source-depth: 1
+    source-tag: '2024.5.0'
     build-packages:
       - brotli
       - blueprint-compiler
