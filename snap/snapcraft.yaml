@@ -49,6 +49,7 @@ parts:
     plugin: nil
     source: https://github.com/NickvisionApps/Parabolic.git
     source-tag: '2024.5.0'
+    source-depth: 1
     build-packages:
       - brotli
       - blueprint-compiler
