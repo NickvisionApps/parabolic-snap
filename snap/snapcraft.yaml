@@ -60,7 +60,7 @@ parts:
   libnick:
     after: [maddy]
     source: https://github.com/nickvisionapps/libnick.git
-    source-tag: "2024.9.1"
+    source-tag: "2024.9.2"
     source-depth: 1
     plugin: cmake
     cmake-parameters:
@@ -94,7 +94,7 @@ parts:
     after: [maddy, libnick, libxmlplusplus]
     plugin: cmake
     source: https://github.com/NickvisionApps/Parabolic.git
-    source-tag: '2024.9.0-beta2'
+    source-tag: '2024.9.0-beta3'
     build-snaps:
       - cmake
       - blueprint-compiler/latest/edge
