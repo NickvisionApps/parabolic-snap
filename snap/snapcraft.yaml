@@ -94,7 +94,7 @@ parts:
     after: [maddy, libnick, libxmlplusplus]
     plugin: cmake
     source: https://github.com/NickvisionApps/Parabolic.git
-    source-tag: '2024.10.0-rc2'
+    source-tag: '2024.10.0'
     build-snaps:
       - cmake
       - blueprint-compiler/latest/edge
