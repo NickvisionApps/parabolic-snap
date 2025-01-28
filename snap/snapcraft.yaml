@@ -34,7 +34,7 @@ parts:
     plugin: python
     source: .
     python-packages:
-      - yt-dlp==2025.01.15
+      - yt-dlp==2025.01.26
     stage:
       - -bin/activate*
       - -bin/Activate.ps1
@@ -94,7 +94,7 @@ parts:
     after: [maddy, libnick, libxmlplusplus]
     plugin: cmake
     source: https://github.com/NickvisionApps/Parabolic.git
-    source-tag: '2025.1.2'
+    source-tag: '2025.1.3'
     build-snaps:
       - cmake
       - blueprint-compiler/latest/edge
