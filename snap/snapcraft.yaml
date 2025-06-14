@@ -34,7 +34,7 @@ parts:
     plugin: python
     source: .
     python-packages:
-      - yt-dlp==2025.06.09
+      - yt-dlp[default,curl-cffi]==2025.06.09
       - mutagen
     stage:
       - -bin/activate*
