@@ -21,6 +21,7 @@ parts:
       - libboost-system1.83.0
       - libboost-date-time1.83.0
       - libboost-json1.83.0
+      - libsqlcipher-dev
     prime:
       - usr/lib/${CRAFT_ARCH_TRIPLET_BUILD_FOR}/libstdc++*.so*
       - usr/lib/${CRAFT_ARCH_TRIPLET_BUILD_FOR}/libaria2.so*
@@ -28,6 +29,7 @@ parts:
       - usr/lib/${CRAFT_ARCH_TRIPLET_BUILD_FOR}/libboost_system.so*
       - usr/lib/${CRAFT_ARCH_TRIPLET_BUILD_FOR}/libboost_date_time.so*
       - usr/lib/${CRAFT_ARCH_TRIPLET_BUILD_FOR}/libboost_json.so*
+      - usr/lib/${CRAFT_ARCH_TRIPLET_BUILD_FOR}/libsqlcipher.so*
       - usr/bin/aria2c
 
   python-deps:
@@ -76,6 +78,7 @@ parts:
       - libboost-dev
       - libboost-system1.83-dev
       - libboost-json1.83-dev
+      - libsqlcipher-dev
     override-prime: ''
 
   libxmlplusplus:
