@@ -36,7 +36,7 @@ parts:
     plugin: python
     source: .
     python-packages:
-      - yt-dlp[default,curl-cffi]==2025.09.05
+      - yt-dlp[default,curl-cffi]==2025.09.23
       - mutagen
     stage:
       - -bin/activate*
@@ -79,7 +79,7 @@ parts:
   libnick:
     after: [cpr, maddy]
     source: https://github.com/nickvisionapps/libnick.git
-    source-tag: '2025.9.2'
+    source-tag: '2025.9.4'
     source-depth: 1
     plugin: cmake
     cmake-parameters:
