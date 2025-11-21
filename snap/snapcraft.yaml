@@ -54,8 +54,11 @@ parts:
       - libvulkan-dev
       - libwayland-dev
       - glslc
-      - gcc-multilib
       - libgraphene-1.0-dev
+    prime:
+      - -usr/bin
+      - -usr/include
+      - -usr/lib/pkgconfig
   libadwaita:
     after: [gtk4]
     source: https://gitlab.gnome.org/GNOME/libadwaita.git
@@ -82,6 +85,9 @@ parts:
       - gperf
       - libappstream-dev
       - glslc
+    prime:
+      - -usr/include
+      - -usr/lib/pkgconfig
   deps:
     plugin: nil
     stage-packages:
@@ -122,6 +128,7 @@ parts:
       - -share
       - -include
     organize:
+      bin: usr/bin
       lib/python3.12/site-packages: usr/lib/python3/dist-packages
 
   cpr:
